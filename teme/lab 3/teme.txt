@@ -1,0 +1,35 @@
+4,5,7,8
+4
+
+5
+
+7
+
+
+8
+
+    Construiti si implementati in JESS un arbore de decizie util in luarea deciziilor
+privind acordarea creditelor bancare. 
+    Arborele de decizie va trebui sa permita
+invatarea, adica adaugarea de noi ramuri si frunze in mod dinamic de-a lungul
+existentei sale. 
+    Programul JESS va trebui sa afiseze pentru ce tip de credit este
+eligibila o persoana si de asemenea o lista cu acte pe care solicitantul va trebui sa
+le furnizeze. 
+Dat fiind faptul ca listele de acte sunt destul de lungi si anumite acte
+apar in listele a numeroase tipuri sau solicitari de credite, regula care va diagnostica
+tipul de credit va insera un fapt de tipul (credit (nume)) in baza de cunostinte. Pentru
+fiecare act se va construi o regula care se va aprinde la prezenta faptului credit de
+un anumit tip. Tiparirea listei de acte se va realiza cu ajutorul unei reguli.
+
+SUGESTIE CREDITE BANCARE
+
+
+Arborele de decizie :
+    -> inserare ramuri si frunze dinamic
+Programul:
+    ->afiseaza tipul de credit pentru o persoana 
+    -> afiseaza o lista cu acte pentru persoana care trebuiesc furnizate
+! Regula care gaseste tipul de credit va insera un fap de tipul credit_bancar(nume)  in baza de cunostinte.
+Pentru fiecare act se va construi o regula ce se aprinde la prezentarea lui.
+Tiparirea lisdei de acte se face cu ajutorul unei reguli
